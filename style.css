@@ -44,7 +44,7 @@ body {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    padding: 30px 200px 50px;
+    padding: 50px 200px 100px;
 }
 
 .top-left {
@@ -110,8 +110,9 @@ button a {
     flex-direction: column;
     align-items: center;
     flex: 1;
-    padding: 30px 200px 50px;
+    padding: 50px 200px 100px;
     justify-content: space-between;
+    gap: 50px;
 }
 
 .body-schools {
@@ -124,3 +125,85 @@ button a {
     font-weight: 900;
     color: #1F2937;
 }
+
+.school-1, .school-2, .school-3, .school-4 {
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    
+}
+
+.school-1 img, .school-2 img, .school-3 img, .school-4 img {
+    border-radius: 10px;
+    border: 2px solid #3882F6;
+}
+
+.quote {
+    background-color: #E5E7eb;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    flex-direction: column;
+    padding: 65px 244px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-source {
+    text-align: right;
+    font-weight: 800;
+}
+
+.action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 95px 0;
+}
+
+.sub-action {
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    padding: 55px 150px;
+    align-items: center;
+    gap: 100px;
+}
+
+.action-banner-title {
+    font-weight: 800;
+    font-size: 22px;
+}
+
+.action-banner-subtext {
+    color: #E5E7eb;
+    font-size: 19px;
+}
+
+.action-lhs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.action-rhs button {
+    border: 2px solid white;
+    font-weight: 800;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    padding: 100px 165px;
+}
+
